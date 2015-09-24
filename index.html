@@ -1,1 +1,128 @@
-Hello World!!!
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <title>hello</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/style1.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/demo.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="css/hello.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/modernizr.custom.js"></script>
+    <script src="js/vendor/snap.svg-min.js"></script>
+</head>
+<body class="loading">
+    <div class="header">
+        <div class="logo">
+            <img src="img/hello.svg">
+        </div>
+        <button id="trigger-overlay" class="menu" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <main>
+        <section id="slide-1" class="homeSlide">
+            <div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+                <div class="hsContainer">
+                    <div class="hsContent" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-1 h2">
+                        <h2>Fade out elements before<br />they leave viewport</h2>
+                        <p>This slide moves background image at a slower speed then the page scroll. Text is fading out to opacity 0 at 106 pixels from the top.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container homeIntro">
+                <div class="row">
+                    <h1>Hello! We are Ana & Victor, designers hailing from Cluj, Romania
+                        crafting beautiful user experiences and visual identities.</h1>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 a">
+                        <div class="row">
+                            <figure>
+                                <div class="figOverlay"></div>
+                                <img src="img/4.jpg">
+                                <figcaption>
+                                    <h3>Moto</h3>
+                                    <span>Illustration project</span>
+                                    <a href="#">Take a look</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 a">
+                        <div class="row">
+                            <figure>
+                                <div class="figOverlay"></div>
+                                <img src="img/2.jpg">
+                                <figcaption>
+                                    <h3>Sunglasses</h3>
+                                    <span>Illustration project</span>
+                                    <a href="#">Take a look</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 a">
+                        <div class="row">
+                            <figure>
+                                <div class="figOverlay"></div>
+                                <img src="img/3.jpg">
+                                <figcaption>
+                                    <h3>Moto</h3>
+                                    <span>Illustration project</span>
+                                    <a href="#">Take a look</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 a">
+                        <div class="row">
+                            <figure>
+                                <div class="figOverlay"></div>
+                                <img src="img/4.jpg">
+                                <figcaption>
+                                    <h3>Sunglasses</h3>
+                                    <span>Illustration project</span>
+                                    <a href="#">Take a look</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- open/close -->
+    <div class="overlay overlay-hugeinc">
+        <button type="button" class="overlay-close">Close</button>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/demo1.js"></script>
+    <script src="js/vendor/imagesloaded.js"></script>
+    <script src="js/vendor/_main.js"></script>
+    <script src="js/vendor/skrollr.js"></script>
+</body>
+</html>
